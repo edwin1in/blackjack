@@ -3,10 +3,10 @@ class Card:
         self.rank = rank
         self.suit = suit
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f'(rank={self.rank},suit={self.suit})'
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'{self.rank} of {self.suit}'
 
     def get_rank(self) -> str:
