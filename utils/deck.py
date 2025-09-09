@@ -17,9 +17,9 @@ class Deck:
         
         shuffle(self.deck)
     
-    def __repr__(self):
+    def __repr__(self) -> str:
         return str([repr(x) for x in self.deck])
 
-    def size(self):
+    def size(self) -> int:
         return len(self.deck)
         
